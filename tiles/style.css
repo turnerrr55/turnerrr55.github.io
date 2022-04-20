@@ -1,0 +1,62 @@
+body{
+	margin:0;
+	padding:0;
+  background-color: #000;
+
+}
+
+.outer{
+  text-align: center;
+}
+
+.page{
+	position:relative;
+	margin-top:0px;
+	background-color: #FFF;
+  max-width:1200px;
+  width:100%;
+  height:100%;
+  display: inline-block;
+	opacity: .6;
+}
+
+.nav{
+	position: sticky;
+	top:0;
+	width: 100%;
+	height: 100px;
+  background-color:rgb(255,255,0);
+	background-image: url("img/logo.png");
+	z-index: 100;
+}
+
+.tile{
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	overflow: hidden;
+
+}
+.tile1{
+	background-image: url("img/tile1.png");
+}
+
+.tile2{
+	background-image: url("img/tile2.jpg");
+}
+
+.tile3{
+	background-image: url("img/tile3.jpg");
+}
+
+.tile4{
+	background-image: url("img/tile4.jpg");
+}
+
+.tile5{
+	background-image: url("img/tile5.png");
+}
+
+.tile6{
+	background-image: url("img/tile6.png");
+}
