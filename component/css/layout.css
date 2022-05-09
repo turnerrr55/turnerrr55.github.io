@@ -1,72 +1,77 @@
 body{
   font-family: sans-serif;
-  color:black;
 
 }
-
 
 .outer{
   text-align: center;
+  background-color: #f0ccdb;
 }
 
 .page{
+
   max-width: 1200px;
   width: 100%;
   display: inline-block;
-  background-color: #CFAA31;
+  background-color: white;
 }
 
 .topnav{
-  background-color: #F4E0E8;
-  height:100px;
-  text-align: left;
+  height:220px;
+  text-align: center;
+  background-color: white;
 
 }
 
 .layout{
 	width:100%;
 	height: 100px;
-
 }
+
 
 /* HERO IMAGE */
-.hero_content1{
+.hero_content{
 	font-size:28px;
 	text-align: center;
 }
 .hero_text_headline{
 	font-weight: bold;
-	font-size: 34px;
+	font-size: 28px;
+  color: #e6b927;
 }
 
-.hero_content1 img{
+.hero_content img{
 	width:100%;
+  height: 530x;
 }
 
-/* HERO IMAGE 2*/
-.hero_content2{
-	font-size:28px;
+
+/* SIDEBAR COMPONENT */
+
+.side_bar{
+  font-size:28px;
 	text-align: center;
-}
-.hero_text_headline{
-	font-weight: bold;
-	font-size: 34px;
+
 }
 
-.hero_content2 img{
-	width:100%;
+.side_bar .section{
+  font-weight: bold;
+ font-size: 28px;
+  color: #e6b927;
 }
 
-/* HERO IMAGE 3*/
-.hero_content3{
-	font-size:28px;
-	text-align: center;
-}
-.hero_text_headline{
-	font-weight: bold;
-	font-size: 34px;
+.side_bar img{
+  width:100%;
+  height: 530x;
 }
 
-.hero_content3 img{
-	width:100%;
+/* [class^="side_bar"] element that starts with */
+div [class^="side_bar"]:first-of-type {
+    margin: 0px;
+
+}
+
+div [class^="side_bar"]:last-of-type {
+    margin: 0px;
+
 }
