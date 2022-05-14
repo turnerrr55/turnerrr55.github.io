@@ -1,0 +1,120 @@
+body{
+  font-family: 'Lato', sans-serif;
+  background-color: #e7a934;
+}
+
+.outer{
+  text-align: center;
+}
+
+.page{
+  margin-top: 20px;
+  max-width: 1200px;
+  height:95vh;
+  display: inline-block;
+  text-align:center;
+  padding:30px;
+  font-family:'Lato', sans-serif;
+  background-color: #FFFFFF;
+}
+
+.topofpage{
+    text-align: center;
+    padding: 20px;
+  }
+
+.navbar{
+  margin-top: 20px;
+  float: center;
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+a:hover{
+  color: #e7a934
+}
+
+.logo{
+  max-width: 400px;
+  align-items: center;
+}
+
+.logo_img{
+  margin-top: 20px;
+  width: 60%;
+  align-items: center;
+}
+
+.content{
+  font-family: 'Lato', sans-serif;
+  font-weight:300;
+  font-size: 18px;
+  padding:20px;
+  text-align: center;
+}
+
+
+/* HERO IMAGE */
+.hero_content{
+   margin-top: 40px;
+   border: 1px solid #ccc;
+   float: left;
+   width: 180px;
+}
+.hero_text_headline{
+	font-weight: bold;
+	font-size: 20px;
+  color: #e6b927;
+  padding: 15px;
+  text-align: center;
+}
+
+.hero_content img{
+  width: 100%;
+  height: auto;
+}
+
+
+/* SIDEBAR COMPONENT */
+
+.side_bar{
+   margin-top: 40px;
+   border: 1px solid #ccc;
+   float: left;
+   width: 180px;
+
+}
+
+.side_bar .section{
+  font-weight: bold;
+	font-size: 20px;
+  color: #e6b927;
+  padding: 15px;
+  text-align: center;
+}
+
+.side_bar img{
+  width: 100%;
+  height: auto;
+}
+
+/* [class^="side_bar"] element that starts with */
+div [class^="side_bar"]:first-of-type {
+    margin: 0px;
+
+}
+
+div [class^="side_bar"]:last-of-type {
+    margin: 0px;
+
+}
